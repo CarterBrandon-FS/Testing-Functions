@@ -1,0 +1,15 @@
+{
+  "name": "testing-functions",
+  "version": "1.0.0",
+  "description": "Functions with Jest tests",
+  "main": "functions.js",
+  "scripts": {
+    "test": "jest scripts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}
