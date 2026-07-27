@@ -54,7 +54,7 @@ describe("Tests for isPalindrome", () => {
     expect(isPalindrome("RaceCar")).toBe(true);
   });
 
-  test("should handle numbers", () => {
+  test("should return flase for non palindrome", () => {
     expect(isPalindrome("hello")).toBe(false);
   });
 
