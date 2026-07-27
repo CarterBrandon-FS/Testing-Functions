@@ -87,4 +87,4 @@ function findMax(arr) {
   return max;
 }
 
-// module.exports = {sumOfArray, reverseString, isPalindrome, findMax};
+module.exports = { sumOfArray, reverseString, isPalindrome, findMax };

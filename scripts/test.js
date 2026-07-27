@@ -1,6 +1,11 @@
 // Import the functions
 
-// const { sumOfArray, reverseString, isPalindrome, findMax } = require("./functions");
+const {
+  sumOfArray,
+  reverseString,
+  isPalindrome,
+  findMax,
+} = require("./functions");
 
 // Test for sumOfArray function
 
@@ -46,11 +51,11 @@ describe("Tests for isPalindrome", () => {
   });
 
   test("should ignore capitalization", () => {
-    expect(isPalindrome("RaceCar").toBe(true));
+    expect(isPalindrome("RaceCar")).toBe(true);
   });
 
   test("should handle numbers", () => {
-    expect(isPalindrome("hello").toBe(false));
+    expect(isPalindrome("hello")).toBe(false);
   });
 
   test("should handle numbers", () => {
